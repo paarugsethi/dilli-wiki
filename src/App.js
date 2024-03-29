@@ -4,7 +4,7 @@ import Navbar from './components/Navbar';
 import Header from './components/Header';
 import Body from './components/Body';
 import { Analytics } from '@vercel/analytics/react';
-import { Helmet } from 'react-helmet';
+// import { Helmet } from 'react-helmet';
 
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
     <div>
       <div className={styles.AppHeader}>
 
-        <Helmet>
+        {/* <Helmet>
           <title>dilli.wiki</title>
           <meta name="description" content="Dilli [dot] wiki is a local's google list with the best places in town. From Chole Bhature to co-working spots, this has everything you need to know." />
           <meta property="og:title" content="dilli.wiki" />
@@ -20,7 +20,7 @@ function App() {
           <meta property="og:url" content="https://www.dilli.wiki" />
           <meta property="og:type" content="website" />
           <meta property="og:image" content="/ogimage.png" />
-        </Helmet>
+        </Helmet> */}
 
         <Navbar/>
         <Header/>
