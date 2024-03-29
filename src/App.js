@@ -19,7 +19,7 @@ function App() {
           <meta property="og:description" content="a local's guide to falling in love with dilli." />
           <meta property="og:url" content="https://www.dilli.wiki" />
           <meta property="og:type" content="website" />
-          <meta property="og:image" content={`${process.env.PUBLIC_URL}/ogimage.png`} />
+          <meta property="og:image" content="/ogimage.png" />
         </Helmet>
 
         <Navbar/>
