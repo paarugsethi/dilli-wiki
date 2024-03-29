@@ -3,6 +3,8 @@ import styles from './App.module.css';
 import Navbar from './components/Navbar';
 import Header from './components/Header';
 import Body from './components/Body';
+import { Analytics } from '@vercel/analytics/react';
+
 
 function App() {
   return (
@@ -11,6 +13,7 @@ function App() {
         <Navbar/>
         <Header/>
         <Body/>
+        <Analytics />
       </div>
     </div>
   );
