@@ -1,13 +1,14 @@
 import styles from "./Bodybox.module.css"
 
 const Bodybox = ({ categories }) => {
+
   return (
     <>
       {categories.map((category, i) => (
         <div className={styles.bodyBox}>
           <div className={styles.bodyBoxHeader}>
             <h1>
-              {category.emoji} {category.category}
+              {category.emoji} {category.name}
             </h1>
           </div>
           <div className={styles.bodyBoxBody}>
