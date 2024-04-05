@@ -30,7 +30,7 @@ export default function Body() {
 
     useEffect(() => {
         fetchCategories().then(data => {
-            console.log("Fetched Categories", data);
+            // console.log("Fetched Categories", data);
             setCategories(data);
         });
     }, []);
